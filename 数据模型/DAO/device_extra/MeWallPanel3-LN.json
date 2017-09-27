@@ -1,0 +1,78 @@
+{
+    "userId": "43dbb124-cdef-423d-af7a-2ab131b322b9",
+    "combine": "",
+    "name": "MeWallPanel-LN",
+    "description": "MeWallPanel-LN",
+    "location": {
+        "locationId": "d1e258ef-8084-4490-a726-207682836105",
+        "locationType": "",
+        "locationName": "default"
+    },
+    "icon": "",
+    "enable": true,
+    "owner": "3e83253c-ff4f-4fa8-b51c-0cb29c4ec0b9",
+    "type": {
+        "icon": "",
+        "id": "040B09050203",
+        "name": "MeWallPanel-LN"
+    },
+    "status": {
+        "switch": "ON",
+        "network": "CONNECTED"
+    },
+    "extra": {
+        "serialNum": "03DD5341",
+        "fwVersion": "v3.11",
+        "modelText": "LVR900v2",
+        "items": {
+            "status": 1799
+        },
+        "powerOn": 1792,
+        "foward": true,
+        "heartbeat": true,
+        "gestures": 65153,
+		/*以上是对象原生属性，以下属性是系统附加属性*/
+		 "associated":[
+            {
+                "rocker":"AI",
+                "action":"press",
+                "deviceId":"",
+                "command":{
+                    "name": "",
+                    "option":"",
+                    "parameters":[]
+                }
+            },
+            {
+                "rocker":"AO",
+                "action":"press",
+                "deviceId":"",
+                "command":{
+                    "name": "",
+                    "option":"",
+                    "parameters":[]
+                }
+            },
+            {
+                "rocker":"BI",
+                "action":"press",
+                "deviceId":"",
+                "command":{
+                    "name": "",
+                    "option":"",
+                    "parameters":[]
+                }
+            },
+            {
+                "rocker":"BO",
+                "action":"press",
+                "deviceId":"",
+                "command":{
+                    "name": "",
+                    "option":"",
+                    "parameters":[]
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,91 @@
+{
+    "uuid" : "2cf6a586-1f9f-45d4-bf51-f39217b6d926",
+    "online" : false,
+    "name" : "MeRFCT(virtual)",
+    "description" : "TEST_DATA",
+    "owner" : "1614a3aa-8428-4e30-927f-212d8ca1ba92",
+    "location" : {
+        "locationId" : "",
+        "locationType" : "",
+        "locationName" : "default"
+    },
+    "type" : {
+        "id" : "040B01000001",
+        "name" : "MeRFCT",
+        "icon" : ""
+    },
+    "extra" : {
+        "serialNum" : "OH05460013",
+        "correctionFactor" : {
+            "volt" : 1,
+            "power30PCT" : 1,
+            "power60PCT" : 1,
+            "power80PCT" : 1
+        },
+        "items" : {
+            "effectiveVolt" : 203,
+            "effectiveCurrent" : 10,
+            "frequency" : 50,
+            "direct" : 16,
+            "activePower" : 68.9,
+            "LN" : 16,
+            "toGrid" : 90,
+            "toUser" : 131
+        }
+		/*以上是对象原生属性，以下属性是系统附加属性*/
+    },
+    "userId" : "d580b72c-c94e-49be-919b-c7954217bd98",
+    "ipAddress" : "115.28.241.149",
+    "deviceIpAddress" : "115.28.241.149",
+    "status" : {
+        "switch" : "ON",
+        "network" : "CONNECTED"
+    },
+    "configureWhitelist" : [ 
+        "*"
+    ],
+    "discoverWhitelist" : [ 
+        "*"
+    ],
+    "timestamp" : "2017-08-09T06:29:16.839Z",
+    "socketid" : "3xLB1owWxBiBuZkGAAAd",
+    "token" : "$2a$08$Htz0.wy7CBAwsFTkjUoLw.qFr.zVhclPIuxF3bmi5pXd/SPTovO6S",
+    "geo" : {
+        "range" : [ 
+            1931214848, 
+            1931345919
+        ],
+        "country" : "CN",
+        "region" : "02",
+        "city" : "Hangzhou",
+        "ll" : [ 
+            30.2936, 
+            120.1614
+        ],
+        "metro" : 0,
+        "zip" : 0
+    },
+    "meshblu" : {
+        "hash" : "albl8vR5Ev4eFzSQSx8Dhx9rSlg4sKPmDpOj0Hn1/C8="
+    },
+    "timeZone" : {
+        "id" : "Asia/Shanghai",
+        "offset" : 28800000
+    },
+    "deviceGeo" : {
+        "range" : [ 
+            1931214848, 
+            1931345919
+        ],
+        "country" : "CN",
+        "region" : "02",
+        "city" : "Hangzhou",
+        "ll" : [ 
+            30.2936, 
+            120.1614
+        ],
+        "metro" : 0,
+        "zip" : 0
+    },
+    "myToken" : "b1e42c64e047ec2c72fae2fa439ce79872f140ab"
+}

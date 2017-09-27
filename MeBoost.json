@@ -1,0 +1,69 @@
+{
+    "userId" : "43dbb124-cdef-423d-af7a-2ab131b322b9",
+    "combine" : "",
+    "name" : "MeBoost",    
+    "description" : "MeBoost",
+    "location": {
+        "locationId": "d1e258ef-8084-4490-a726-207682836105",
+        "locationType": "",
+        "locationName": "default"
+    },
+    "icon" : "",
+    "enable" : true,
+    "owner" : "43dbb124-cdef-423d-af7a-2ab131b322b9",
+    "type" : {
+        "icon" : "",
+        "id" : "040B08040004",
+        "name" : "MeBoost"
+    },
+    "status" : {
+        "switch" : "ECO",
+        "network" : "CONNECTED"
+   },
+    "extra" : {
+        "serialNum" : "E0D7B386010492AAD97A",
+        "modelText" : "WWLB-3000EU",
+        "nominalPower" : 3000.0,
+        "fwVersion" : "v2.1.1",
+        "alarm":{
+            "temperature":{
+                "lower": 20.2, 
+                "upper": 120.6
+            },
+            "volt":{
+                "lower": 180, 
+                "upper": 220
+            },
+            "current":{
+                "lower": -1, 
+                "upper": 15
+            },
+            "power":{
+                "lower": -1,
+                "upper": 3200
+            }
+        },
+        "loadType":32,
+        "deviceTime":"2017-04-01 04:01:00",
+        "regulatorAlgo": 0,
+        "regulatorFactor": 1,
+        "regulatorError": 20,
+        "regulatorTimeout":30,
+        "regulatorPrevalue": 50,
+        "regulatorThreshold":200,
+        "regulatorWindow":5,
+        "sampleFrequency": 30,
+        "prevalueAlgo":0,
+        "validAlgo":0,
+        "prevalueFactor":0.1,
+        "items" : {
+            "temperature" : 108.64,
+            "voltage" : 227,
+            "current" : 0,
+            "power" : 0,
+            "energySaved" : 256.66,
+            "energyUsed" : 108.64,
+            "mode":1
+        }
+    }
+}

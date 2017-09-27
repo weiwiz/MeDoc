@@ -1,0 +1,17 @@
+{
+    "sceneId": "xxxx-scene-uuid-xxxx",
+    "mode": "PARALLEL",//枚举[PARALLEL, WATERFALL, SERIES]
+    "name": "scene",
+    "commands": [
+        {
+            "uuid": "xxxx-device-uuid-xxxx",
+            "deviceType": "",
+            /*设备命令，详见《设备功能码定义（云端）》*/
+            "cmd": {
+				"cmdName":"命令名",
+				"cmdCode":"命令码",
+				"parameters":{/"命令参数"/}
+			}
+        }
+    ]
+}

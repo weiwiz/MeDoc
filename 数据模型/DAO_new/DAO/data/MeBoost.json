@@ -1,0 +1,113 @@
+{
+    "uuid" : "afa02f31-1eba-45f8-988c-41c14f14df95",
+    "online" : false,
+    "userId" : "43dbb124-cdef-423d-af7a-2ab131b322b9",
+    "combine" : "",
+    "name" : "MeBoost",
+    "description" : "MeBoost",
+    "location" : {
+        "locationId" : "d1e258ef-8084-4490-a726-207682836105",
+        "locationType" : "",
+        "locationName" : "default"
+    },
+    "icon" : "",
+    "enable" : true,
+    "owner" : "43dbb124-cdef-423d-af7a-2ab131b322b9",
+    "type" : {
+        "icon" : "",
+        "id" : "040B08040003",
+        "name" : "MeBoost"
+    },
+    "status" : {
+        "switch" : "ON",
+        "network" : "CONNECTED"
+    },
+    "extra" : {
+        "serialNum" : "E0D7B386010492AAD97A",
+        "modelText" : "WWLB-3000EU",
+        "nominalPower" : 3000,
+        "fwVersion" : "v2.1.1",
+        "alarm" : {
+            "temperature" : {
+                "lower" : 20.2,
+                "upper" : 120.6
+            },
+            "volt" : {
+                "lower" : 180,
+                "upper" : 220
+            },
+            "current" : {
+                "lower" : -1,
+                "upper" : 15
+            },
+            "power" : {
+                "lower" : -1,
+                "upper" : 3200
+            }
+        },
+        "loadType" : 32,
+        "deviceTime" : "2017-04-01 04:01:00",
+        "regulatorAlgo" : 0,
+        "regulatorTimeout" : 30,
+        "regulatorThreshold" : 200,
+        "regulatorWindow" : 5,
+        "sampleFrequency" : 30,
+        "thresholdAlgo" : 0,
+        "factor" : 0.1,
+        "verifyThreshold" : 0,
+        "items" : {
+            "temperature" : 108.64,
+            "voltage" : 227,
+            "current" : 0,
+            "power" : 0,
+            "energySaved" : 256.66,
+            "energyUsed" : 108.64
+        }
+    },
+    "ipAddress" : "171.221.143.213",
+    "deviceIpAddress" : "171.221.143.213",
+    "configureWhitelist" : [ 
+        "8d3a201c-5b1f-41fc-bb05-dce4057c5c3f"
+    ],
+    "discoverWhitelist" : [ 
+        "43dbb124-cdef-423d-af7a-2ab131b322b9", 
+        "8d3a201c-5b1f-41fc-bb05-dce4057c5c3f"
+    ],
+    "timestamp" : "2017-04-10T12:07:25.476Z",
+    "socketid" : "rPwAFErlT0J8KCPJAABK",
+    "token" : "$2a$08$8RwTmE/46wisUnoZsjoFDuPGjRHD8OUExhOaPkB5H.E43By6wG1ku",
+    "geo" : {
+        "range" : [ 
+            2882830336.0, 
+            2883557375.0
+        ],
+        "country" : "CN",
+        "region" : "32",
+        "city" : "Chengdu",
+        "ll" : [ 
+            30.6667, 
+            104.0667
+        ],
+        "metro" : 0,
+        "zip" : 0
+    },
+    "meshblu" : {
+        "hash" : "YduTtgalEBXJY/E1gMr4qlNyLfdDjAb9YwYk92Hj+JY="
+    },
+    "deviceGeo" : {
+        "range" : [ 
+            2882830336.0, 
+            2883557375.0
+        ],
+        "country" : "CN",
+        "region" : "32",
+        "city" : "Chengdu",
+        "ll" : [ 
+            30.6667, 
+            104.0667
+        ],
+        "metro" : 0,
+        "zip" : 0
+    },
+    "myToken" : "19b0486b2607af9b4e0259cccd50e5a4ca3eda6d"
+}

@@ -1,0 +1,44 @@
+0. Auth
+	host: 115.28.142.4/app.hailin.com:8080
+	bearer 2aa15c0a-2a71-4d27-8cc0-747b122de703
+
+1. 获取设备详情
+	a) request:
+		GET /hailin/api/device HTTP/1.1
+	b) response:
+		
+		[{
+			"dirty_heat_mode": true,			//?
+			"dirty_status_onoff": true,			//?
+			"dirty_temp_heat": true,			//?
+			"dis_temp": "c25.5",				
+			"heat_mode": 3,             		//0：模式未运行，1：外出，2：节能，3：舒适
+			"status": 4,                		//?4: 关机，6：开机 
+			"status_onoff": 0,                  //0: 关机，1：开机
+			"temp_comfort": "c22.0",            //舒适模式默认温度
+			"temp_energy": "c18.0",             //节能模式默认温度
+			"temp_heat": "c16.0",				//设置制热温度
+			"temp_out": "c10.0",				//外出模式默认温度
+			"mac": "ACCF23BF754C",				
+			"dev_type": 8,
+			"dis_dev_name": "Yuedong-Floor",
+			"req_interval": 120,
+			"online": true
+		}]
+		
+2. 操作设备
+	i) onoff
+		a) request
+			POST /hailin/api/device HTTP/1.1
+			Content-Type: application/x-www-form-urlencoded
+			{
+				"status_onoff": 1,
+				"mac": "ACCF23BF754C"
+			}
+		b) response
+			{
+				"result":"ok" , 
+				"errorCode":0, 
+				"errorDescription":""
+			}
+	ii) 

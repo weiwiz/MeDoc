@@ -1,0 +1,88 @@
+{
+    "uuid" : "43dbb124-cdef-423d-af7a-2ab131b322b9",
+    "online" : false,
+    "name" : "Nisary",
+    "description" : "",
+    "icon" : "",
+    "enable" : true,
+    "owner" : "",
+    "type" : {
+        "id" : "060A08000000",
+        "name" : "user",
+        "icon" : ""
+    },
+    "extra" : {
+        "phoneNumber" : "(+86)18009071867",
+        "password" : "rtdr1234",
+        "timeZone" : "0",
+        "language" : "zh-CN",
+        "email" : "xieshizhiyu@gmail.com",
+        "companyName" : "weiwiz"
+    },
+    "ipAddress" : "171.217.131.142",
+    "settings" : {
+        "event" : [ 
+            {
+                "name" : "notification",
+                "value" : "ON"
+            }
+        ]
+    },
+    "configureWhitelist" : [ 
+        "8d3a201c-5b1f-41fc-bb05-dce4057c5c3f"
+    ],
+    "discoverWhitelist" : [ 
+        "8d3a201c-5b1f-41fc-bb05-dce4057c5c3f"
+    ],
+    "timestamp" : "2017-04-08T16:54:54.076Z",
+    "socketid" : "mEDqyGo2REkXsAnsAAAI",
+    "token" : "$2a$08$RwRoSX9mP20gLwIDHElmVuFy9PP44t7X1oqF13/7oDKBD6CUr53S.",
+    "geo" : {
+        "range" : [ 
+            2882830336.0, 
+            2883557375.0
+        ],
+        "country" : "CN",
+        "region" : "32",
+        "city" : "Chengdu",
+        "ll" : [ 
+            30.6667, 
+            104.0667
+        ],
+        "metro" : 0,
+        "zip" : 0
+    },
+    "meshblu" : {
+        "hash" : "QoWyZsb7CT4WWIwxm7s93VFDgvK94HjTUEj73L1eOQk="
+    },
+    "deviceGeo" : {
+        "range" : [ 
+            2882830336.0, 
+            2883557375.0
+        ],
+        "country" : "CN",
+        "region" : "32",
+        "city" : "Chengdu",
+        "ll" : [ 
+            30.6667, 
+            104.0667
+        ],
+        "metro" : 0,
+        "zip" : 0
+    },
+    "myToken" : "142112f6c4e82cd495fd008299c9bcbb92702035"
+}
+
+{
+  "weiwiz" : {
+    "MHome" : {
+      "response" : {
+        "uuid" : "43dbb124-cdef-423d-af7a-2ab131b322b9",
+        "online" : true,
+        "token" : "43dbb124-cdef-423d-af7a-2ab131b322b9_6eb07f18-765b-4d14-b610-2a2f5df11ae8"
+      },
+      "errorId" : 200,
+      "errorMsg" : ""
+    }
+  }
+}

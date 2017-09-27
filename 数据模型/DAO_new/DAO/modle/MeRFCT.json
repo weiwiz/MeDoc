@@ -1,0 +1,42 @@
+{
+    "userId" : "43dbb124-cdef-423d-af7a-2ab131b322b9",
+    "combine" : "",
+    "name" : "MeRFCT",    
+    "description" : "MeRFCT",
+    "location": {
+        "locationId": "d1e258ef-8084-4490-a726-207682836105",
+        "locationType": "",
+        "locationName": "default"
+    },
+    "icon" : "",
+    "enable" : true,
+    "owner" : "3e83253c-ff4f-4fa8-b51c-0cb29c4ec0b9",
+    "type" : {
+        "icon" : "",
+        "id" : "040B01000001",
+        "name" : "MeRFCT"
+    },
+    "status" : {
+        "switch" : "ON",
+        "network" : "DISCONNECTED"
+    },
+    "extra":{
+        "serialNum" : "OH05460013",
+        "correctionFactor":{
+            "volt":1.0,
+            "power30PCT": 1.0,
+            "power60PCT": 1.0,
+            "power80PCT": 1.0
+        },
+        "items":{
+            "effectiveVolt": 220.3,
+            "effectiveCurrent": 12,
+            "frequency":50,
+            "direct": 16,
+            "activePower":68.9,
+            "LN":16,
+            "toGrid":1789.4,
+            "toUser": 789.5
+        }
+    }
+}

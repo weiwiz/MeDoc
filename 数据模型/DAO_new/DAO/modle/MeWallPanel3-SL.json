@@ -1,0 +1,34 @@
+{
+    "userId": "43dbb124-cdef-423d-af7a-2ab131b322b9",
+    "combine": "",
+    "name": "MeWallPanel-SL",
+    "description": "MeWallPanel-SL",
+    "location": {
+        "locationId": "d1e258ef-8084-4490-a726-207682836105",
+        "locationType": "",
+        "locationName": "default"
+    },
+    "icon": "",
+    "enable": true,
+    "owner": "3e83253c-ff4f-4fa8-b51c-0cb29c4ec0b9",
+    "type": {
+        "icon": "",
+        "id": "040B09050113",
+        "name": "MeWallPanel-SL"
+    },
+    "status": {
+        "switch": "ON",
+        "network": "CONNECTED"
+    },
+    "extra": {
+        "serialNum": "93DD5341",
+        "fwVersion": "v3.11",
+        "modelText": "LVR900v2",
+        "items": {
+            "status": 1799
+        },
+        "powerOn": 1792,
+        "foward": true,
+        "heartbeat": true
+    }
+}

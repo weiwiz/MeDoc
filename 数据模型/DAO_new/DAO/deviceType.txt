@@ -1,0 +1,30 @@
+WHO want WHOM to do WHAT
+fromUuid deviceUuid cmdId
+
+MeBox:   	030B08000004
+
+MeBoost: 	040B08040004
+MeRFCT:     040B01000001
+MeStroage:  040B01000005
+MeInverter: 040B01000004
+
+MeReceiver:
+	MeReceiver1: 040B09050101
+	MeReceiver3(a.k.a MeWallPanel3):
+		MeWallPanel3-LN: 040B09050203
+		MeWallPanel3-SL: 040B09050113
+MePanel:
+	MePanel1: 040B09050201
+	MePanel2: 040B09050202
+	MePanel3: 040B09050213
+	MePanel4: 040B09050214
+	
+MeThermostat:
+	MeThermostat(MCOHome):  	040300100806
+	MeThermostat(WiFi)-月动: 	050608070001
+	MeThermostat(RF-WRM200):	040B08070001
+
+MeHotwater: 040B08080001
+
+MeSwitch: 040B08090001
+	

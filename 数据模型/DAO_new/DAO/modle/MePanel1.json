@@ -1,0 +1,37 @@
+{
+    "userId": "43dbb124-cdef-423d-af7a-2ab131b322b9",
+    "combine": "",
+    "name": "MePanel1",
+    "description": "MePanel1",
+    "location": {
+        "locationId": "d1e258ef-8084-4490-a726-207682836105",
+        "locationType": "",
+        "locationName": "default"
+    },
+    "icon": "",
+    "enable": true,
+    "owner": "3e83253c-ff4f-4fa8-b51c-0cb29c4ec0b9",
+    "type": {
+        "icon": "",
+        "id": "040B09050201",
+        "name": "MePanel1"
+    },
+    "status": {
+        "switch": "ON",
+        "network": "CONNECTED"
+    },
+    "extra": {
+        "associated":[
+            {
+                "rocker":"B",
+                "action":"press",
+                "deviceId":[""],
+                "command":{
+                    "name": "",
+                    "option":"",
+                    "parameters":[]
+                }
+            }
+        ]
+    }
+}

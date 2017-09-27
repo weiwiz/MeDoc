@@ -1,0 +1,19 @@
+{
+  "name": "Nisary",
+  "description": "",
+  "icon": "",
+  "enable": true,
+  "owner": "",
+  "type": {
+    "id": "060A08000000",
+    "name": "user",
+    "icon": ""
+  },
+  "extra":{
+    "phoneNumber" : "(+86)18009071867",
+    "password" : "rtdr1234",
+    "timeZone" : "0",
+    "language" : "zh-CN",
+    "email" : "xieshizhiyu@gmail.com"
+  }
+}

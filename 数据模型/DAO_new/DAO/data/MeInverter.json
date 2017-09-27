@@ -1,0 +1,123 @@
+{    
+    "uuid" : "9f78e9e6-4a01-4fbf-8c4e-6009ddd3a4d0",
+    "online" : false,
+    "userId" : "43dbb124-cdef-423d-af7a-2ab131b322b9",
+    "combine" : "",
+    "name" : "MeInverter",
+    "description" : "MeInverter",
+    "location" : {
+        "locationId" : "d1e258ef-8084-4490-a726-207682836105",
+        "locationType" : "",
+        "locationName" : "default"
+    },
+    "icon" : "",
+    "enable" : true,
+    "owner" : "3e83253c-ff4f-4fa8-b51c-0cb29c4ec0b9",
+    "type" : {
+        "icon" : "",
+        "id" : "050B01000004",
+        "name" : "MeInverter"
+    },
+    "extra" : {
+        "serialNum" : "7H05460013",
+        "dataLogSn" : "AH55471022",
+        "nominalPower" : 4200,
+        "fwVersion" : "AH1.0",
+        "innerVersion" : "ahba0000",
+        "modelText" : "A0B0D1T2PFU1M4SA",
+        "mainsVoltMax" : 380,
+        "reactivePower" : 86.7,
+        "storagePF" : true,
+        "pf" : "",
+        "deviceTime" : "2017-04-01 04:01:00",
+        "runtime" : {
+            "pv" : [ 
+                {
+                    "name" : "pv1",
+                    "volt" : 20,
+                    "current" : 1.5,
+                    "watt" : 89.9
+                }, 
+                {
+                    "name" : "pv2",
+                    "volt" : 20,
+                    "current" : 1.5,
+                    "watt" : 89.9
+                }
+            ],
+            "ac" : [ 
+                {
+                    "name" : "ac1",
+                    "volt" : 20,
+                    "current" : 1.5,
+                    "watt" : 89.9
+                }, 
+                {
+                    "name" : "ac2",
+                    "volt" : 20,
+                    "current" : 1.5,
+                    "watt" : 89.9
+                }, 
+                {
+                    "name" : "ac3",
+                    "volt" : 20,
+                    "current" : 1.5,
+                    "watt" : 89.9
+                }
+            ]
+        },
+        "status" : "-1",
+        "statusText" : "inverter.status.lost",
+        "items" : {}
+    },
+    "ipAddress" : "171.221.143.213",
+    "deviceIpAddress" : "171.221.143.213",
+    "status" : {
+        "switch" : "ON",
+        "network" : "CONNECTED"
+    },
+    "configureWhitelist" : [ 
+        "8d3a201c-5b1f-41fc-bb05-dce4057c5c3f"
+    ],
+    "discoverWhitelist" : [ 
+        "3e83253c-ff4f-4fa8-b51c-0cb29c4ec0b9", 
+        "8d3a201c-5b1f-41fc-bb05-dce4057c5c3f"
+    ],
+    "timestamp" : "2017-04-10T09:33:02.723Z",
+    "socketid" : "rPwAFErlT0J8KCPJAABK",
+    "token" : "$2a$08$ZxzHojOmL6qkguJswf0/eOA1VJOUsJqOAnx2b/MmisgS1ojetRLWy",
+    "geo" : {
+        "range" : [ 
+            2882830336.0, 
+            2883557375.0
+        ],
+        "country" : "CN",
+        "region" : "32",
+        "city" : "Chengdu",
+        "ll" : [ 
+            30.6667, 
+            104.0667
+        ],
+        "metro" : 0,
+        "zip" : 0
+    },
+    "meshblu" : {
+        "hash" : "yDOTc5du6EdhRHVGKFapb1sD03r1uGB3YYFoc2HZRO4="
+    },
+    "deviceGeo" : {
+        "range" : [ 
+            2882830336.0, 
+            2883557375.0
+        ],
+        "country" : "CN",
+        "region" : "32",
+        "city" : "Chengdu",
+        "ll" : [ 
+            30.6667, 
+            104.0667
+        ],
+        "metro" : 0,
+        "zip" : 0
+    },
+    "myToken" : "b0d990c42cf15594396ae19ea0674a0f3e522749"
+}

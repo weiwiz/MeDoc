@@ -1,0 +1,22 @@
+{
+    "uuid" : "afa02f31-1eba-45f8-988c-41c14f14df95",
+	"userId" : "43dbb124-cdef-423d-af7a-2ab131b322b9",
+	"owner" : "43dbb124-cdef-423d-af7a-2ab131b322b9",
+    "online" : false,
+	"name" : "MeBoost",
+    "description" : "MeBoost",
+    "location" : {
+        "locationId" : "d1e258ef-8084-4490-a726-207682836105",
+        "locationType" : "",
+        "locationName" : "default"
+    },
+    "type" : {
+        "icon" : "",
+        "id" : "040B08040003",
+        "name" : "MeBoost"
+    },
+    "status" : {
+        "switch" : "ON",
+        "network" : "CONNECTED"
+    }
+}

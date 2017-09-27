@@ -1,0 +1,97 @@
+/* MeReceiver1 */
+{
+    "id":{
+        "nbId": "134acb88-2c8e-4c09-9413-6ab5b0a57f8c",
+        "sbId": "03AF5341"
+    },
+    "type":{
+        "name": "MeReceiver1",
+        "nbType":"040B09050101",
+        "sbType": 129
+    },
+    "channel":"wrm200"
+}
+
+/* MeWallPanel3-SL */
+{
+    "id":{
+        "nbId": "86da83b4-beab-4a2f-b6c5-6438895febb6",
+        "sbId": "93DD5341"
+    },
+    "type":{
+        "name": "MeWallPanel3-SL",
+        "nbType":"040B09050113",
+        "sbType": 159
+    },
+    "channel":"wrm200"
+}
+
+/* MeWallPanel3-LN */
+{
+    "id":{
+        "nbId": "7011ef99-3617-4a2e-9487-6d12ec61eaf5",
+        "sbId": "03DD5341"
+    },
+    "type":{
+        "name": "MeWallPanel3-LN",
+        "nbType":"040B09050203",
+        "sbType": 147
+    },
+    "channel":"wrm200"
+}
+
+/* MeBoost */
+{
+    "id":{
+        "nbId": "afa02f31-1eba-45f8-988c-41c14f14df95",
+        "sbId": "WWLB30A9E1"
+    },
+    "type":{
+        "name": "MeBoost",
+        "nbType":"040B08040004",
+        "sbType": 176
+    },
+    "channel":"grf"
+}
+
+/* MeStroage */
+{
+    "id":{
+        "nbId": "e871dc3f-f4d5-4542-8df7-c3bef511b468",
+        "sbId": "7X63486236"
+    },
+    "type":{
+        "name": "MeStroage",
+        "nbType":"040B01000005",
+        "sbType": 176
+    },
+    "channel":"grf"
+}
+
+/* MeInverter */
+{
+    "id":{
+        "nbId": "9f78e9e6-4a01-4fbf-8c4e-6009ddd3a4d0",
+        "sbId": "AH55471022"
+    },
+    "type":{
+        "name": "MeInverter",
+        "nbType":"040B01000004",
+        "sbType": 176
+    },
+    "channel":"grf"
+}
+
+/* MeRFCT */
+{
+    "id":{
+        "nbId": "819d873b-cd50-4b86-a34a-f01f416b0d70",
+        "sbId": "OH05460013"
+    },
+    "type":{
+        "name": "MeRFCT",
+        "nbType":"040B01000001",
+        "sbType": 128
+    },
+    "channel":"grf"
+}

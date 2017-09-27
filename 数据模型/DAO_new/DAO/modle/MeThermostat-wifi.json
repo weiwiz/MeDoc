@@ -1,0 +1,38 @@
+{
+    "userId": "43dbb124-cdef-423d-af7a-2ab131b322b9",
+    "combine": "",
+    "name": "MeThermostat-wifi",
+    "description": "MeThermostat-wifi",
+    "location": {
+        "locationId": "d1e258ef-8084-4490-a726-207682836105",
+        "locationType": "",
+        "locationName": "default"
+    },
+    "icon": "",
+    "enable": true,
+    "owner": "43dbb124-cdef-423d-af7a-2ab131b322b9",
+    "type": {
+        "icon": "",
+        "id": "050608070001",
+        "name": "MeThermostat-wifi"
+    },
+    "status": {
+        "switch": "ON",
+        "network": "CONNECTED"
+    },
+    "extra": {
+        "mac": "ACCF23BF9306",
+        "dev_type": 8,
+        "dis_dev_name": "Yuedong-Water",
+        "req_interval": 30,
+        "dis_temp": "c29.5",
+        "status_onoff": 0,
+        "temp_heat": "c25.0",
+        "temp_out": "c10.0",
+        "temp_comfort": "c22.0",
+        "temp_energy": "c18.0",
+        "heat_mode": 0,
+        "status": 4,
+        "encrypt": "1a755b7366fa526b882749fe4367d3d1"
+    }
+}

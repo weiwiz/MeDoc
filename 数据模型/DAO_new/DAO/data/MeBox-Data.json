@@ -1,0 +1,79 @@
+{
+    "uuid" : "3e83253c-ff4f-4fa8-b51c-0cb29c4ec0b9",
+    "online" : false,
+    "userId" : "43dbb124-cdef-423d-af7a-2ab131b322b9",
+    "combine" : "",
+    "name" : "Nisary MeBox Master",
+    "description" : "",
+    "location" : {
+        "locationId" : "d1e258ef-8084-4490-a726-207682836105",
+        "locationType" : "",
+        "locationName" : "default"
+    },
+    "icon" : "",
+    "enable" : true,
+    "owner" : "43dbb124-cdef-423d-af7a-2ab131b322b9",
+    "type" : {
+        "id" : "030B08000004",
+        "name" : "home controler",
+        "icon" : ""
+    },
+    "extra" : {
+        "serverName" : "MeBox",
+        "mac" : "5C:C5:D4:6A:31:37",
+        "fwVer" : "Ver-1.0.0",
+        "productType" : "WW010201-1000EU",
+        "sn" : "WW0139657",
+        "items" : {}
+    },
+    "ipAddress" : "171.217.131.142",
+    "deviceIpAddress" : "171.217.131.142",
+    "status" : {
+        "switch" : "ON",
+        "network" : "CONNECTED"
+    },
+    "configureWhitelist" : [ 
+        "8d3a201c-5b1f-41fc-bb05-dce4057c5c3f"
+    ],
+    "discoverWhitelist" : [ 
+        "43dbb124-cdef-423d-af7a-2ab131b322b9", 
+        "8d3a201c-5b1f-41fc-bb05-dce4057c5c3f"
+    ],
+    "timestamp" : "2017-04-08T17:11:42.773Z",
+    "socketid" : "mEDqyGo2REkXsAnsAAAI",
+    "token" : "$2a$08$Eem4Sd5VMH9//xmJqt0FP.h4ry/r7Cq30ibmdUiqb.aP4e9xTZrpG",
+    "geo" : {
+        "range" : [ 
+            2882830336.0, 
+            2883557375.0
+        ],
+        "country" : "CN",
+        "region" : "32",
+        "city" : "Chengdu",
+        "ll" : [ 
+            30.6667, 
+            104.0667
+        ],
+        "metro" : 0,
+        "zip" : 0
+    },
+    "meshblu" : {
+        "hash" : "LsM/kRhE+H8kTLtCZYX+twq/w88BuAmx8AB1B0YE2jE="
+    },
+    "deviceGeo" : {
+        "range" : [ 
+            2882830336.0, 
+            2883557375.0
+        ],
+        "country" : "CN",
+        "region" : "32",
+        "city" : "Chengdu",
+        "ll" : [ 
+            30.6667, 
+            104.0667
+        ],
+        "metro" : 0,
+        "zip" : 0
+    },
+    "myToken" : "835dd93d0abf153177c927e45f319d323364199f"
+}

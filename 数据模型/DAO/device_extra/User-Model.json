@@ -1,0 +1,22 @@
+{
+  "name": "Nisary",
+  "description": "",
+  "icon": "",
+  "enable": true,
+  "owner": "",
+  "type": {
+    "id": "060A08000000",
+    "name": "user",
+    "icon": ""
+  },
+  "extra":{
+    "phoneNumber" : "(+86)18009071867",
+    "password" : "rtdr1234",
+    "timeZone" : "0",
+    "language" : "zh-CN",
+    "email" : "xieshizhiyu@gmail.com"
+	/*以上是对象原生属性，以下属性是系统附加属性*/
+	"scenes":[/*场景，结构详见scene*/],
+	"settings":[/*设置，结构详见setting*/]
+  }
+}

@@ -1,0 +1,33 @@
+{
+    "timerId": "xxxx-timer-uuid-xxxx",
+    "mode": "SERIES",//枚举[PARALLEL, WATERFALL, SERIES]
+    "name": "timer",
+    "enable": true,
+    "interval": 0,
+    "between": [
+        "08:00",
+        "12:00"
+    ],
+    "weekday": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+    ],
+    "commands": [
+        {
+            "uuid": "xxxx-device-uuid-xxxx",
+            "deviceType": "device-type-id",
+            "enable": true,
+			/*设备命令，详见《设备功能码定义（云端）》*/
+            "cmd": {
+				"cmdName":"命令名",
+				"cmdCode":"命令码",
+				"parameters":{/"命令参数"/}
+			}
+        }
+    ]
+}

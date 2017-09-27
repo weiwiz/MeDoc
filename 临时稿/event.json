@@ -1,0 +1,114 @@
+﻿"eventTag":[
+	"EVENT_DEV_MEBOOST_POWERON_REPORT"
+	"EVENT_DEV_MEBOOST_BASIC_STATUS_REPORT",
+	"EVENT_DEV_MEBOOST_POWER_REPORT",
+	"EVENT_DEV_MERECEIVER_EXCEPTION_REPORT"
+	
+	"EVENT_DEV_MERECEIVER_POWERON_REPORT",
+	"EVENT_DEV_MERECEIVER_BASIC_STATUS_REPORT",
+
+	
+	"EVENT_DEV_METHERMOSTAT_POWERON_REPORT",
+	"EVENT_DEV_METHERMOSTAT_MODE_REPORT",
+	"EVENT_DEV_METHERMOSTAT_SETPOINT_REPORT",
+	
+	"EVENT_CONTROL_UPDATE_NETWORK"
+]
+
+// POWERON
+{
+	"eventTag": "EVENT_DEV_MEBOOST_POWERON_REPORT",
+	"eventData":{
+			"uuid": "deviceUUid"			
+		}
+	}	
+}
+
+{
+	"eventTag": "EVENT_DEV_MERECEIVER_POWERON_REPORT",
+	"eventData":{
+			"uuid": "deviceUUid"			
+		}
+	}	
+}
+
+{
+	"eventTag": "EVENT_DEV_METHERMOSTAT_POWERON_REPORT",
+	"eventData":{
+			"uuid": "deviceUUid"			
+		}
+	}	
+}
+
+// EVENT_DEV_MEBOOST_BASIC_STATUS_REPORT
+
+{
+	"eventTag": "EVENT_DEV_MEBOOST_BASIC_STATUS_REPORT",
+	"eventData":{
+			"uuid": "deviceUUid",
+			"status": [0x0001,0x0002,0x0003,0x0004,0x0005]  // oneof
+		}
+	}	
+}
+//EVENT_DEV_MEBOOST_POWER_REPORT
+{
+	"eventTag": "EVENT_DEV_MEBOOST_POWER_REPORT",
+	"eventData":{
+			"uuid": "deviceUUid",
+			"power": 20000 // 数据=实际数据*10
+		}
+	}	
+}
+// "EVENT_DEV_MEBOOST_EXCEPTION_REPORT",
+{
+	"eventTag": "EVENT_DEV_MERECEIVER_EXCEPTION_REPORT",
+	"eventData":{
+			"uuid": "deviceUUid",
+			"errCode": [0xFFF1,0xFFF2,0xFFF3,0xFFF4,0xFFFF]
+		}
+	}	
+}
+//EVENT_DEV_MERECEIVER_BASIC_STATUS_REPORT
+{
+	"eventTag": "EVENT_DEV_MERECEIVER_BASIC_STATUS_REPORT",
+	"eventData":{
+			"uuid": "deviceUUid"
+			"channel": 0x01,
+			"switch": 0x01
+		}
+	}	
+}
+//EVENT_DEV_METHERMOSTAT_MODE_REPORT
+{
+	"eventTag": "EVENT_DEV_METHERMOSTAT_MODE_REPORT",
+	"eventData":{
+			"uuid": "deviceUUid",
+			"mode": 0x01
+		}
+	}	
+}
+//EVENT_DEV_METHERMOSTAT_SETPOINT_REPORT
+{
+	"eventTag": "EVENT_DEV_METHERMOSTAT_SETPOINT_REPORT",
+	"eventData":{
+			"uuid": "deviceUUid",
+			"mode": 0,
+			"unit": 0,
+			"setpoint": 56
+		}
+	}	
+}
+//EVENT_CONTROL_UPDATE_NETWORK
+{
+	"eventTag": "EVENT_CONTROL_UPDATE_NETWORK",
+	"eventData":{
+			"uuid": "deviceUUid",
+			"network":[
+				{
+					"uuid": "",
+					"online": false
+				}
+			]	
+		}
+	}	
+}

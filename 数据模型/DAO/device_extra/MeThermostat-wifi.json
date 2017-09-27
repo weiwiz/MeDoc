@@ -1,0 +1,41 @@
+{
+    "userId": "43dbb124-cdef-423d-af7a-2ab131b322b9",
+    "combine": "",
+    "name": "MeThermostat-wifi",
+    "description": "MeThermostat-wifi",
+    "location": {
+        "locationId": "d1e258ef-8084-4490-a726-207682836105",
+        "locationType": "",
+        "locationName": "default"
+    },
+    "icon": "",
+    "enable": true,
+    "owner": "43dbb124-cdef-423d-af7a-2ab131b322b9",
+    "type": {
+        "icon": "",
+        "id": "050608070001",
+        "name": "MeThermostat-wifi"
+    },
+    "status": {
+        "switch": "ON",
+        "network": "CONNECTED"
+    },
+    "extra": {
+         "mac" : "ACCF23B4D80C",
+        "dev_type" : 8,
+        "dis_dev_name" : "Yuedong-Floor",
+        "status_onoff" : 1,
+        "encrypt" : "19b2618d5e06c867d62ac2bf9fa5252e",
+        "items" : {
+            "dis_temp" : "c28.5",
+            "temp_heat" : "c29.0",
+            "temp_out" : "c10.0",
+            "temp_comfort" : "c22.0",
+            "temp_energy" : "c18.0",
+            "heat_mode" : 3,
+            "status" : 2
+        },
+		/*以上是对象原生属性，以下属性是系统附加属性*/
+		"timers":[/*定时器，结构详见timer*/]
+    }
+}

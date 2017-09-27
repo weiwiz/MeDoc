@@ -1,0 +1,84 @@
+{
+    "userId" : "43dbb124-cdef-423d-af7a-2ab131b322b9",
+    "combine" : "",
+    "name" : "MeStorage",    
+    "description" : "MeStorage",
+    "location": {
+        "locationId": "d1e258ef-8084-4490-a726-207682836105",
+        "locationType": "",
+        "locationName": "default"
+    },
+    "icon" : "",
+    "enable" : true,
+    "owner" : "3e83253c-ff4f-4fa8-b51c-0cb29c4ec0b9",
+    "type" : {
+        "icon" : "",
+        "id" : "040B01000005",
+        "name" : "MeStorage"
+    },
+    "status" : {
+        "switch" : "OFF",
+        "network" : "DISCONNECTED"
+    },
+    "extra":{
+        "serialNum" : "5DZ96293D2",
+        "dataLogSn" : "7X63486236",
+        "nominalPower" : 0,
+        "fwVersion" : "FA1.0",
+        "modelText" : "A0B0D1T2PFU1M3S0",
+        "onoff":"offNoGrid",
+        "charge":"discharge",
+        "forcedDischarge":"enable",
+        "forcedDischargeTime":{
+            "startTime":"23:00",
+            "endTime":"23:59"
+        },
+        "SPVolt": 220.6,
+        "powerLimit":{
+            "charge": 520.0,
+            "discharge":120.0
+        },        
+        "mode" : "NORMAL",     
+        "deviceTime":"2017-04-01 04:01:00",
+        "runtime":{
+            "pv":{
+                "name":"pv",
+                "volt":269.5,
+                "current":6.1,
+                "watt": 1654.2
+            },
+            "bat":{
+                "name":"bat",
+                "volt":57.1,
+                "current":0,
+                "watt": 0
+            },
+            "grid":{
+                "name":"grid",
+                "volt":221.4,
+                "current":5.3,
+                "watt": 1175.6
+            }
+        },
+         "items":{
+            "status" : -1,
+            "capacity" : 99.0,
+            "pacToGrid" : 739.7,
+            "pacToUser" : 0,
+            "eDisChargeToday": 123.2,
+            "eDisChargeTotal": 789.9,
+            "energyConsumption": 456.7,
+            "eChargeToday":119.2,
+            "eChargeTotal":853.9,
+            "eToUserTotal":114.2,
+            "eToGridTotal":335.8,
+            "pCharge": 125.9,
+            "pDisCharge": 335.9,
+            "device_model" : 2000,
+            "gmode" : "NORMAL",            
+            "ppv" : 1508.8,
+            "eToUserTotal": 459.9,
+            "eToGridTotal": 789.6
+         }
+    }
+}

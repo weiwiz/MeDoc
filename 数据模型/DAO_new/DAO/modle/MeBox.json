@@ -1,0 +1,30 @@
+{
+  "userId": "43dbb124-cdef-423d-af7a-2ab131b322b9",
+  "combine": "",
+  "name": "Nisary MeBox Master",
+  "description": "",
+  "location": {
+    "locationId": "d1e258ef-8084-4490-a726-207682836105",
+    "locationType": "",
+    "locationName": "default"
+  },
+  "icon": "",
+  "enable": true,
+  "owner": "43dbb124-cdef-423d-af7a-2ab131b322b9",
+  "type": {
+    "id": "030B08000004",
+    "name": "home controler",
+    "icon": ""
+  },
+  "status" : {
+        "switch" : "ON",
+        "network" : "CONNECTED"
+  },
+  "extra":{
+    "serverName" : "MeBox",
+    "mac" : "5C:C5:D4:6A:31:37",
+    "fwVer" : "Ver-1.0.0",
+    "productType" : "WW010201-1000EU",
+    "sn":"WW0139657"
+  }
+}

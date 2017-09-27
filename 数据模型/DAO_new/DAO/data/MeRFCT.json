@@ -1,0 +1,81 @@
+{    
+    "uuid" : "819d873b-cd50-4b86-a34a-f01f416b0d70",
+    "online" : false,
+    "userId" : "43dbb124-cdef-423d-af7a-2ab131b322b9",
+    "combine" : "",
+    "name" : "MeRFCT",
+    "description" : "MeRFCT",
+    "location" : {
+        "locationId" : "d1e258ef-8084-4490-a726-207682836105",
+        "locationType" : "",
+        "locationName" : "default"
+    },
+    "icon" : "",
+    "enable" : true,
+    "owner" : "3e83253c-ff4f-4fa8-b51c-0cb29c4ec0b9",
+    "type" : {
+        "icon" : "",
+        "id" : "050B01000001",
+        "name" : "MeRFCT"
+    },
+    "extra" : {
+        "serialNum" : "OH05460013",
+        "correctionFactor" : {
+            "volt" : 1,
+            "power30PCT" : 1,
+            "power60PCT" : 1,
+            "power80PCT" : 1
+        },
+        "items" : {}
+    },
+    "ipAddress" : "171.221.143.213",
+    "deviceIpAddress" : "171.221.143.213",
+    "status" : {
+        "switch" : "ON",
+        "network" : "CONNECTED"
+    },
+    "configureWhitelist" : [ 
+        "8d3a201c-5b1f-41fc-bb05-dce4057c5c3f"
+    ],
+    "discoverWhitelist" : [ 
+        "3e83253c-ff4f-4fa8-b51c-0cb29c4ec0b9", 
+        "8d3a201c-5b1f-41fc-bb05-dce4057c5c3f"
+    ],
+    "timestamp" : "2017-04-10T09:53:23.164Z",
+    "socketid" : "rPwAFErlT0J8KCPJAABK",
+    "token" : "$2a$08$f0m3.B2wjUTUbkBHJexjluNM.bor7qJ/UehPxsRpBDIaY0pVzZJXa",
+    "geo" : {
+        "range" : [ 
+            2882830336.0, 
+            2883557375.0
+        ],
+        "country" : "CN",
+        "region" : "32",
+        "city" : "Chengdu",
+        "ll" : [ 
+            30.6667, 
+            104.0667
+        ],
+        "metro" : 0,
+        "zip" : 0
+    },
+    "meshblu" : {
+        "hash" : "1ekVso7pLCa8Lj4HGr8tAtJQlzdy9TwwNQUfEK2TnNc="
+    },
+    "deviceGeo" : {
+        "range" : [ 
+            2882830336.0, 
+            2883557375.0
+        ],
+        "country" : "CN",
+        "region" : "32",
+        "city" : "Chengdu",
+        "ll" : [ 
+            30.6667, 
+            104.0667
+        ],
+        "metro" : 0,
+        "zip" : 0
+    },
+    "myToken" : "4df22e1db65524726fcea8d66f2c7b6b0eead905"
+}
